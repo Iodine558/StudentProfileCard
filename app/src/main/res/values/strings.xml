@@ -3,4 +3,9 @@
     <string name="avatar_description">Avatar sinh viên</string>
     <string name="hint_new_gpa">Nhập GPA mới (0.0 – 4.0)</string>
     <string name="btn_update_gpa">Cập Nhật Thông Tin</string>
+    <string name="student_info_format">MSSV: %1$s • Lớp: %2$s</string>
+    <string name="gpa_badge_format">%1$.1f GPA (%2$s)</string>
+    <string name="invalid_gpa_error">Vui lòng nhập GPA hợp lệ (0.0 – 4.0)</string>
+    <string name="invalid_gpa_toast">Điểm GPA không hợp lệ!</string>
+    <string name="update_success_toast">Cập nhật điểm thành công!</string>
 </resources>
