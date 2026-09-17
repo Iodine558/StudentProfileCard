@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.core.net.toUri
 import android.os.Bundle
+import androidx.appcompat.app.AlertDialog
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -62,6 +63,24 @@ class MainActivity : AppCompatActivity() {
             bindStudentData(currentStudent) // Vẽ lại dữ liệu mới lên Views
             toast(getString(R.string.update_success_toast))
         }
+
+        // Xử lý sự kiện Xóa hồ sơ
+        binding.btnDeleteProfile.setOnClickListener {
+            showConfirmDialog()
+        }
+    }
+
+    private fun showConfirmDialog() {
+        AlertDialog.Builder(this)
+            .setTitle(R.string.delete_confirm_title)
+            .setMessage(R.string.delete_confirm_message)
+            .setPositiveButton(R.string.confirm_yes) { _, _ ->
+                // Xử lý logic xóa (ví dụ: ẩn card hoặc xóa data)
+                binding.cardProfile.visibility = android.view.View.GONE
+                toast(getString(R.string.delete_success_toast))
+            }
+            .setNegativeButton(R.string.confirm_no, null)
+            .show()
     }
 
     private fun bindStudentData(student: Student) {
