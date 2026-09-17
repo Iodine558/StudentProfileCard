@@ -43,6 +43,20 @@
                 android:textColor="#DCE6EB"
                 android:layout_marginTop="4dp" />
             <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#DCE6EB"
+                android:layout_marginTop="4dp" />
+            <Button
+                android:id="@+id/btnCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_call"
+                android:backgroundTint="#2196F3"
+                app:icon="@drawable/ic_phone"
+                android:layout_marginTop="8dp" />
+            <TextView
                 android:id="@+id/tvGpaBadge"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

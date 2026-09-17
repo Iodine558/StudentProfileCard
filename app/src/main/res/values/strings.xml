@@ -8,4 +8,6 @@
     <string name="invalid_gpa_error">Vui lòng nhập GPA hợp lệ (0.0 – 4.0)</string>
     <string name="invalid_gpa_toast">Điểm GPA không hợp lệ!</string>
     <string name="update_success_toast">Cập nhật điểm thành công!</string>
+    <string name="phone_label">SĐT: %1$s</string>
+    <string name="btn_call">Gọi điện</string>
 </resources>
