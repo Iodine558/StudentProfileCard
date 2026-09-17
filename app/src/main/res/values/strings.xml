@@ -10,4 +10,10 @@
     <string name="update_success_toast">Cập nhật điểm thành công!</string>
     <string name="phone_label">SĐT: %1$s</string>
     <string name="btn_call">Gọi điện</string>
+    <string name="btn_delete">Xóa hồ sơ</string>
+    <string name="delete_confirm_title">Xác nhận xóa</string>
+    <string name="delete_confirm_message">Bạn có chắc chắn muốn xóa hồ sơ sinh viên này không?</string>
+    <string name="confirm_yes">Có</string>
+    <string name="confirm_no">Không</string>
+    <string name="delete_success_toast">Đã xóa hồ sơ!</string>
 </resources>
